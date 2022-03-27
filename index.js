@@ -3,7 +3,7 @@ let hideDragonBtn = document.getElementById("hide-dragon-button");
 let dragonNest = document.getElementById("dragon-nest");
 
 const fetchData = () => {
-    fetch("https://thesimpsonsquoteapi.glitch.me/quotes?count=50")
+    fetch("https://thesimpsonsquoteapi.glitch.me/quotes?count=35")
     .then((response) => {
         return response.json();
     })
