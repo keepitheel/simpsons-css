@@ -1,6 +1,9 @@
+body{
+    background-color:  rgb(153, 218, 238);
+}
+
 .title {
     text-align: center;
-    background-color:  rgb(153, 218, 238);
     color: rgb(4, 56, 12);  
     font-family: 'Homer Simpson Revised', sans-serif;
     font-size: 4rem; 
@@ -9,7 +12,6 @@
  }
 
 .main-container{
-    background-color:  rgb(153, 218, 238);
     width: auto;
     height: 100%;
     margin: auto;
@@ -17,6 +19,16 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+#quote{
+    margin: auto;
+    font-family: 'Homer Simpson Revised', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    max-width: 85%;
+
 }
 
 .column-1 {
@@ -43,6 +55,7 @@
 .body-container {
     border: 7px solid rgb(230, 215, 10);
     width: 70%;
+    min-height: 470px;
     display: flex;
     flex-direction: row;
     align-items: center;
